@@ -190,6 +190,6 @@ python3 update_univew.py --ip 10.151.214.51 --u root --p pass --r 640x480 --f 5 
 - **DAHUA**
   https://community.jeedom.com/uploads/short-url/tTQJPaNah7gZnU12VGGN9ZHEhOk.pdf
 - **AXIS**
-
+  https://wiki.2n.com/hip/inte/files/latest/en/25340932/25340931/1/1519853908027/vapix_video_streaming_52937_en_1307.pdf
 - **TVT**
   http://kamery.elnika.cz/update/tvt/RTSP_FW3.0_opened_telnet/3535NVR/20151222/TVTAPI1.4.pdf
