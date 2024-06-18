@@ -201,7 +201,7 @@ def getAllSettings(camera_ip, username, password):
         def extract_and_print_params(text, format_type):
             try:
                 for param in params:
-                    target_line = next(line for line in text.split('\n') if f'caps[0].{format_type}.Video.{param}' in line)
+                    target_line = next(line for line in text.split('\n') if f'caps.{format_type}.Video.{param}' in line)
                     value = target_line.split('=')[1].strip()
                     print(f"{param.replace('Types', '').replace('Options', '')} : {value}")
                 print("-----------")
